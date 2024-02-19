@@ -208,7 +208,7 @@ html,body
         url('./images/Snappy Renders Logo.png');
         width: 100vw;
         background-position: center;
-        background-size: cover;
+        background-size: contain;
         padding: 0.5rem calc((100vw - 1200px) / 2);
         display: flex;
         justify-content: flex-start;
