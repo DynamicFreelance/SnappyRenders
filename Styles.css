@@ -207,7 +207,7 @@ html,body
         background: linear-gradient(to right, rgba(50,205,50, 0.5), rgba(0,0,0, 0.0)),
         url('./images/Snappy Renders Logo.png');
         width: 100vw;
-        hegiht: 100%;
+        hegiht: 50vh;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
