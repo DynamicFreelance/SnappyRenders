@@ -219,6 +219,30 @@ html,body
     }
 }
 
+/* services section*/
+.services{
+    background: linear-gradient(to right, rgba(50,205,50, 0.5), rgba(0,0,0, 0.0));
+    width: 100%;
+    hegiht: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-snap-align: start;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+}
+.services__content{
+    color: var(--green);
+    padding: 2rem 0.5rem;
+    line-height: 1;
+}
+.services__content h1{
+    font-size: clamp(3rem, 8vw, 7rem);
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
 /* footer section*/
 .Dtech__tag{
     width: 50%;
