@@ -240,7 +240,14 @@ html,body
 .services__content h1{
     font-size: clamp(3rem, 8vw, 7rem);
     text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.services__content p{
+    color: var(--green);
+    font-size: clamp(2rem, 8vw, 4rem);
     margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 /* footer section*/
