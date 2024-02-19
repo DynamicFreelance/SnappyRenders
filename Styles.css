@@ -245,9 +245,9 @@ html,body
 }
 .services__content p{
     color: var(--black);
-    font-size: clamp(2rem, 8vw, 5rem);
+    font-size: clamp(2rem, 8vw, 4rem);
     margin-bottom: 0.5rem;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-left: 1rem;
     text-transform: uppercase;
 }
