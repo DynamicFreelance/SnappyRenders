@@ -234,7 +234,7 @@ html,body
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
-    box-shadow:10px 10px 20px rgba(50,205,50, 0.6);
+    box-shadow:20px 20px 30px rgba(0,255,0, 0.6);
 }
 .services__content{
     padding: 2rem 0.5rem;
