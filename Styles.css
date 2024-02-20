@@ -207,7 +207,7 @@ html,body
 }
 @media screen and (max-width: 800px){
     .hero{
-        background: linear-gradient(to right, rgba(50,205,50, 0.5), rgba(0,0,0, 0.0)),
+        background: linear-gradient(to right, rgba(50,205,50, 0.4), rgba(0,0,0, 0.0)),
         url('./images/Snappy Renders Logo.png');
         width: 100%;
         hegiht: 50%;
@@ -224,7 +224,7 @@ html,body
 
 /* services section*/
 .services{
-    background: linear-gradient(to right, rgba(50,205,50, 0.5), rgba(0,0,0, 0.0));
+    background: linear-gradient(to right, rgba(50,205,50, 0.4), rgba(0,0,0, 0.0));
     width: 100%;
     hegiht: 100%;
     display: flex;
@@ -234,9 +234,7 @@ html,body
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
-    outline: var(--green);
-    outline-width: 0.7rem;
-    outline-style: outset;
+    box-shadow:10px 10px 20px rgba(50,205,50, 0.6);
 }
 .services__content{
     padding: 2rem 0.5rem;
