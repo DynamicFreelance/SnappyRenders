@@ -37,6 +37,9 @@ html,body
     align-items: center;
     position: relative;
     width: 100%;
+    outline: var(--green);
+    outline-width: 0.3rem;
+    outline-style: outset;
 }
 .navbar__logo{
     color: var(--green);
@@ -231,6 +234,9 @@ html,body
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
+    outline: var(--green);
+    outline-width: 0.3rem;
+    outline-style: outset;
 }
 .services__content{
     padding: 2rem 0.5rem;
