@@ -239,16 +239,17 @@ html,body
 .services__content h1{
     font-size: clamp(2rem, 8vw, 3rem);
     text-transform: uppercase;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     margin-top: 1rem;
     color: var(--green);
 }
 .services__content p{
     color: var(--black);
-    font-size: clamp(1.5rem, 8vw, 2.5rem);
+    font-size: clamp(1.5rem, 8vw, 2rem);
     margin-bottom: 0.5rem;
     margin-top: 1rem;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* footer section*/
