@@ -232,6 +232,7 @@ html,body
     scroll-snap-align: start;
     background-position: center;
     background-size: cover;
+    margin-bottom: 2rem;
 }
 .services{
     background: linear-gradient(to right, rgba(50,205,50, 0.4), rgba(0,0,0, 0.0));
