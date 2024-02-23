@@ -223,6 +223,16 @@ html,body
 }
 
 /* services section*/
+.snappy__content{
+    width: 100%;
+    background: linear-gradient(to right, rgba(50,205,50, 0.4), rgba(0,0,0, 0.0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+    background-position: center;
+    background-size: cover;
+}
 .services{
     background: linear-gradient(to right, rgba(50,205,50, 0.4), rgba(0,0,0, 0.0));
     width: 100%;
