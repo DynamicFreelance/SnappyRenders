@@ -223,7 +223,7 @@ html,body
 }
 
 /* services section*/
-.snappy__content{
+.Snappy{
     width: 100%;
     background: linear-gradient(to right, rgba(50,205,50, 0.4), rgba(0,0,0, 0.0));
     display: flex;
@@ -232,7 +232,12 @@ html,body
     scroll-snap-align: start;
     background-position: center;
     background-size: cover;
+}
+.snappy__content{
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .services{
     background: linear-gradient(to right, rgba(50,205,50, 0.4), rgba(0,0,0, 0.0));
