@@ -236,8 +236,6 @@ html,body
     background: rgba(50,205,50, 0.5);
     width: 100%;
     hegiht: 100%;
-    display: flex;
-    justify-content: flex-start;
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
