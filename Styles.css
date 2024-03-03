@@ -241,7 +241,7 @@ html,body
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
-    box-shadow:10px 10px 10px rgba(0,255,0, 0.8);
+    box-shadow:10px 10px 10px rgba(253, 218, 13, 0.7);
 }
 .services__content1{
     padding: 2rem 0.5rem;
