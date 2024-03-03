@@ -245,27 +245,35 @@ html,body
     padding: 0.5rem calc((100vw - 1200px) / 2);
     box-shadow:10px 10px 20px rgba(0,255,0, 0.8);
 }
-.services__content{
+.services__content1{
     padding: 2rem 0.5rem;
     line-height: 1;
+    display: flex;
+    justify-content: left;
+    align-items: left;
 }
-.services__content h1{
+.services__content2{
+    padding: 2rem 0.5rem;
+    line-height: 1;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+.services__content1 h1{
     font-size: clamp(2rem, 8vw, 3rem);
     text-transform: uppercase;
     margin-bottom: 3rem;
     margin-top: 1rem;
     color: var(--white);
 }
-.services__content h2{
+.services__content2 h2{
     font-size: clamp(2rem, 8vw, 3rem);
     text-transform: uppercase;
     margin-bottom: 3rem;
     margin-top: 1rem;
     color: var(--white);
-    align-items:right;
-    justify-content:right;
 }
-.services__content b{
+.services__content1 b, .services__content2 b{
     color: var(--yellow);
     font-size: clamp(2rem, 8vw, 3rem);
     margin-bottom: 3rem;
