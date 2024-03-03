@@ -1,7 +1,7 @@
 :root{
     --black:#000000;
     --white:#fff;
-    --green:#32CD32;
+    --green:#228B22;
     --yellow:#FDDA0D;
 }
 *{
@@ -78,7 +78,7 @@ html,body
 #check{display: none;}
 
 .mouse-scroll h2{
-    color: var(--lightbrown);
+    color: var(--green);
     font-size: 18px;
     rotate: -90deg;
     position: absolute;
@@ -90,7 +90,7 @@ html,body
 .mouse-scroll{
     width: 2.1em;
     height: 4em;
-    border: solid 3px var(--lightbrown);
+    border: solid 3px var(--green);
     border-radius:30px;
     position: relative;
     rotate: 90deg;
@@ -108,7 +108,7 @@ html,body
     width: 0.6em;
     height: 0.6em;
     border-radius: 50%;
-    background: var(--lightbrown);
+    background: var(--green);
     position: absolute;
     left: 50%;
     translateX: -50%;
@@ -181,7 +181,7 @@ html,body
 
 /* Hero section */
 .Hero{
-    background: rgba(50,205,50, 0.5);
+    background: rgba(34, 139, 34, 0.5);
     width: 100%;
     hegiht: 80%;
     align-items: center;
@@ -200,7 +200,7 @@ html,body
 }
 @media screen and (max-width: 800px){
     .Hero{
-        background: rgba(50,205,50, 0.5);
+        background: rgba(34, 139, 34, 0.5);
         width: 100%;
         hegiht: 80%;
         align-items: center;
@@ -217,7 +217,7 @@ html,body
 /* services section*/
 .Snappy{
     width: 100%;
-    background: rgba(50,205,50, 0.5);
+    background: rgba(34, 139, 34, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,7 +233,7 @@ html,body
     align-items: center;
 }
 .services{
-    background: rgba(50,205,50, 0.5);
+    background: rgba(34, 139, 34, 0.5);
     width: 100%;
     hegiht: 100%;
     align-items: center;
