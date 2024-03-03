@@ -217,7 +217,7 @@ html,body
 /* services section*/
 .Snappy{
     width: 100%;
-    background: rgba(50,205,50, 0.5)
+    background: rgba(50,205,50, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
