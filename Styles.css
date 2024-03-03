@@ -248,14 +248,12 @@ html,body
 .services__content1{
     padding: 2rem 0.5rem;
     line-height: 1;
-    display: flex;
     justify-content: left;
     align-items: left;
 }
 .services__content2{
     padding: 2rem 0.5rem;
     line-height: 1;
-    display: flex;
     justify-content: right;
     align-items: right;
 }
