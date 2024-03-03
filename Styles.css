@@ -269,6 +269,7 @@ html,body
     font-size: clamp(2rem, 8vw, 3rem);
     margin-bottom: 3rem;
     margin-top: 1rem;
+    display: flex;
     text-transform: uppercase;
     font-weight: bold;
 }
