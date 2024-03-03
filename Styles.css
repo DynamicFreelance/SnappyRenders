@@ -266,7 +266,7 @@ html,body
     color: var(--white);
     margin-left: 1rem;
 }
-.services__content p{
+.services__content b{
     color: var(--yellow);
     font-size: clamp(2rem, 8vw, 3rem);
     margin-bottom: 3rem;
