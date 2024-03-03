@@ -181,7 +181,7 @@ html,body
 
 /* Hero section */
 .Hero{
-    background: rgba(34, 139, 34, 0.5);
+    background: rgba(34, 139, 34, 0.9);
     width: 100%;
     hegiht: 80%;
     align-items: center;
@@ -200,7 +200,7 @@ html,body
 }
 @media screen and (max-width: 800px){
     .Hero{
-        background: rgba(34, 139, 34, 0.5);
+        background: rgba(34, 139, 34, 0.9);
         width: 100%;
         hegiht: 80%;
         align-items: center;
@@ -217,7 +217,7 @@ html,body
 /* services section*/
 .Snappy{
     width: 100%;
-    background: rgba(34, 139, 34, 0.5);
+    background: rgba(34, 139, 34, 0.9);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,7 +233,7 @@ html,body
     align-items: center;
 }
 .services{
-    background: rgba(34, 139, 34, 0.5);
+    background: rgba(34, 139, 34, 0.9);
     width: 100%;
     hegiht: 100%;
     align-items: center;
@@ -241,7 +241,7 @@ html,body
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
-    box-shadow:10px 10px 20px rgba(0,255,0, 0.8);
+    box-shadow:10px 10px 10px rgba(0,255,0, 0.8);
 }
 .services__content1{
     padding: 2rem 0.5rem;
