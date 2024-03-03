@@ -183,7 +183,7 @@ html,body
 .Hero{
     background: rgba(50,205,50, 0.5);
     width: 100%;
-    hegiht: 100%;
+    hegiht: 80%;
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
@@ -194,8 +194,8 @@ html,body
     justify-content: center;
 }
 .Hero__Container img{
-    width: 70vw;
-    height: 70vw;
+    width: 50vw;
+    height: 50vw;
     padding: 3rem;
 }
 @media screen and (max-width: 800px){
@@ -206,6 +206,11 @@ html,body
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
+}
+.Hero__Container img{
+    width: 70vw;
+    height: 70vw;
+    padding: 3rem;
 }
 }
 
