@@ -254,7 +254,6 @@ html,body
     text-transform: uppercase;
     margin-bottom: 3rem;
     margin-top: 1rem;
-    display:flex;
     color: var(--white);
 }
 .services__content h2{
@@ -262,7 +261,6 @@ html,body
     text-transform: uppercase;
     margin-bottom: 3rem;
     margin-top: 1rem;
-    display:flex;
     color: var(--white);
     margin-left: 1rem;
 }
