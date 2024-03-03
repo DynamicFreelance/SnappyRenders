@@ -187,14 +187,13 @@ html,body
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
-    background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
 }
 .hero__img{
-    line-height: 1;
     width: 80vw;
     height: 80vw;
     padding: 5rem;
+    position: relative;
 }
 @media screen and (max-width: 800px){
     .hero{
@@ -204,7 +203,6 @@ html,body
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
-    background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
     }
 }
