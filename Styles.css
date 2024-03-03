@@ -180,31 +180,33 @@ html,body
 }
 
 /* Hero section */
-.hero{
+.Hero{
     background: rgba(50,205,50, 0.5);
     width: 100%;
     hegiht: 100%;
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
 }
-.hero__img{
-    width: 80vw;
-    height: 80vw;
-    padding: 5rem;
-    position: relative;
+.Hero__Container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Hero__Container img{
+    width: 70vw;
+    height: 70vw;
+    padding: 3rem;
 }
 @media screen and (max-width: 800px){
-    .hero{
+.Hero{
     background: rgba(50,205,50, 0.5);
     width: 100%;
-    hegiht: 100%;
+    hegiht: 80%;
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
-    padding: 0.5rem calc((100vw - 1200px) / 2);
-    }
+}
 }
 
 /* services section*/
