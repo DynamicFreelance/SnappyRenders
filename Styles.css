@@ -250,12 +250,14 @@ html,body
     line-height: 1;
     justify-content: left;
     align-items: left;
+    text-align: left;
 }
 .services__content2{
     padding: 2rem 0.5rem;
     line-height: 1;
     justify-content: right;
     align-items: right;
+    text-align: right;
 }
 .services__content1 h1{
     font-size: clamp(2rem, 8vw, 3rem);
