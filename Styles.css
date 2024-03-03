@@ -253,6 +253,7 @@ html,body
     font-size: clamp(2rem, 8vw, 3rem);
     text-transform: uppercase;
     margin-bottom: 3rem;
+    display: flex;
     margin-top: 1rem;
     color: var(--white);
 }
@@ -260,9 +261,10 @@ html,body
     font-size: clamp(2rem, 8vw, 3rem);
     text-transform: uppercase;
     margin-bottom: 3rem;
+    display: flex;
     margin-top: 1rem;
     color: var(--white);
-    margin-left: calc(100vw - 1200px) / 2);
+    margin-left: 30vw;
 }
 .services__content p{
     color: var(--yellow);
