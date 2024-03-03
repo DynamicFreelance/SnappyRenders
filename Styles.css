@@ -193,12 +193,8 @@ html,body
 }
 .hero__img{
     width: 80vw;
+    height: 80vw;
     padding: 5rem;
-}
-.hero__content{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 @media screen and (max-width: 800px){
     .hero{
