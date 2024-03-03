@@ -202,17 +202,15 @@ html,body
 }
 @media screen and (max-width: 800px){
     .hero{
-       background: rgba(50,205,50, 0.5);
-        width: 100%;
-        hegiht: 50%;
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 0.5rem calc((100vw - 1200px) / 2);
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        scroll-snap-align: start;
+    background: rgba(50,205,50, 0.5);
+    height: 50vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    padding: 0.5rem calc((100vw - 1200px) / 2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     }
 }
 
