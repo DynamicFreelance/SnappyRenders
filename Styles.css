@@ -213,7 +213,7 @@ html,body
 }
 .Render__Container img{
     width: 50vw;
-    height: 100%;
+    height: 50vw;
     padding: 3rem;
 }
 
