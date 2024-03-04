@@ -198,6 +198,25 @@ html,body
     height: 40vw;
     padding: 3rem;
 }
+.Render{
+    background: rgba(34, 139, 34, 0.9);
+    width: 100%;
+    hegiht: 80%;
+    align-items: center;
+    scroll-snap-align: start;
+    background-position: center;
+}
+.Render__Container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.Render__Container img{
+    width: 100%;
+    height: 100%;
+    padding: 3rem;
+}
+
 @media screen and (max-width: 800px){
     .Hero{
         background: linear-gradient(to bottom, rgba(2, 48, 32, 0.9), rgba(34, 139, 34, 0.9));
