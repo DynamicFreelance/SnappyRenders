@@ -256,10 +256,12 @@ html,body
     justify-content: center;
     align-items: center;
 }
+.Snappyimg{
+     height:10vh;
+}
 .services{
     background: linear-gradient(to bottom, rgba(2, 48, 32, 0.9), rgba(34, 139, 34, 0.9));
     width: 100%;
-    hegiht: 100%;
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
