@@ -181,7 +181,7 @@ html,body
 
 /* Hero section */
 .Hero{
-    background: linear-gradient(to bottom, rgba(255, 87, 51, 1), rgba(34, 139, 34, 0.9));
+    background: linear-gradient(to bottom, rgba(2, 48, 32, 1), rgba(34, 139, 34, 0.9));
     width: 100%;
     hegiht: 80%;
     align-items: center;
@@ -200,7 +200,7 @@ html,body
 }
 @media screen and (max-width: 800px){
     .Hero{
-        background: linear-gradient(to bottom, rgba(255, 87, 51, 1), rgba(34, 139, 34, 0.9));
+        background: linear-gradient(to bottom, rgba(2, 48, 32, 1), rgba(34, 139, 34, 0.9));
         width: 100%;
         hegiht: 80%;
         align-items: center;
@@ -233,7 +233,7 @@ html,body
     align-items: center;
 }
 .services{
-    background: linear-gradient(to bottom, rgba(255, 87, 51, 1), rgba(34, 139, 34, 0.9));
+    background: linear-gradient(to bottom, rgba(2, 48, 32, 1), rgba(34, 139, 34, 0.9));
     width: 100%;
     hegiht: 100%;
     align-items: center;
