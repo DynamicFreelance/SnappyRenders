@@ -255,6 +255,7 @@ html,body
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 .Snappyimg{
      height:25vh;
