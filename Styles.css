@@ -257,7 +257,12 @@ html,body
     align-items: center;
 }
 .Snappyimg{
-     height:10vh;
+     height:25vh;
+}
+@media screen and (max-width: 800px){
+    .Snappyimg{
+         height:10vh;
+    }
 }
 .services{
     background: linear-gradient(to bottom, rgba(2, 48, 32, 0.9), rgba(34, 139, 34, 0.9));
