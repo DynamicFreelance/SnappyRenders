@@ -187,7 +187,7 @@ html,body
     align-items: center;
     scroll-snap-align: start;
     background-position: center;
-    box-shadow:10px 10px 20px rgba(253, 218, 13, 0.4);
+    box-shadow:10px 10px 20px rgba(253, 218, 13, 0.5);
 }
 .Hero__Container{
     display:flex;
@@ -226,6 +226,7 @@ html,body
         align-items: center;
         scroll-snap-align: start;
         background-position: center;
+        box-shadow:10px 10px 20px rgba(253, 218, 13, 0.5);
     }
     .Hero__Container img{
         width: 80vw;
@@ -274,7 +275,7 @@ html,body
     background-position: center;
     background-size: cover;
     padding: 0.5rem calc((100vw - 1200px) / 2);
-    box-shadow:10px 20px 20px rgba(253, 218, 13, 0.4);
+    box-shadow:10px 10px 20px rgba(253, 218, 13, 0.4);
 }
 .services__content1{
     padding: 2rem 0.5rem;
