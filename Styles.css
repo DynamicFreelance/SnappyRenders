@@ -268,7 +268,7 @@ html,body
     }
 }
 .services{
-    background: linear-gradient(to bottom, rgba(2, 48, 32, 0.9), rgba(34, 139, 34, 0.9));
+    background: linear-gradient(to top, rgba(2, 48, 32, 0.9), rgba(34, 139, 34, 0.9));
     width: 100%;
     align-items: center;
     scroll-snap-align: start;
