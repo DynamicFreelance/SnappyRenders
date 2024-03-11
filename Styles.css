@@ -159,7 +159,7 @@ html,body
         justify-content: center;
     }
     .open-menu, .close-menu{display:block;}
-    #check:checked ~ .navbar__menu {right: 1;}
+    #check:checked ~ .navbar__menu {right: 0;}
 }
 .button{
     padding: 1rem 2rem;
