@@ -201,6 +201,11 @@ html,body
     height: 30vw;
     padding: 1rem;
 }
+.Hero__Container img:hover{
+    width: 35vw;
+    height: 35vw;
+    padding: 1rem;
+}
 .Render{
     background: linear-gradient(to right, rgba(2, 48, 32, 0.9), rgba(0,0,0, 0.2));
     width: 100%;
