@@ -56,9 +56,11 @@ html,body
     text-decoration: none;
     padding: 0rem 0.5rem;
     cursor: none;
+    transition: 0.3s ease;
 }
 .navbar__link:hover{
     color: var(--black);
+    text-decoration: underline;
 }
 .open-menu, .close-menu{
     position: absolute;
