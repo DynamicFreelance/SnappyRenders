@@ -313,13 +313,11 @@ html,body
     color: var(--white);
 }
 .services__content1 h1:hover{
-    font-size: clamp(2.5rem, 8vw, 3.5rem);
     .services__content1 b, .services__content2 b{
         font-size: clamp(2.5rem, 8vw, 3.5rem);
     }
 }
 .services__content2 h2:hover{
-    font-size: clamp(2.5rem, 8vw, 3.5rem);
     .services__content1 b, .services__content2 b{
         font-size: clamp(2.5rem, 8vw, 3.5rem);
     }
