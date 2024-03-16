@@ -305,6 +305,7 @@ html,body
     margin-bottom: 3rem;
     margin-top: 1rem;
     color: var(--white);
+    transition: 0.3s ease;
 }
 .services__content2 h2{
     font-size: clamp(2rem, 8vw, 3rem);
@@ -312,12 +313,13 @@ html,body
     margin-bottom: 3rem;
     margin-top: 1rem;
     color: var(--white);
+     transition: 0.3s ease;
 }
     .services__content1 b:hover{
-        font-size: clamp(2.5rem, 8vw, 3.5rem);
+        font-size: clamp(2.3rem, 8vw, 3.3rem);
     }
     .services__content2 b:hover{
-        font-size: clamp(2.5rem, 8vw, 3.5rem);
+        font-size: clamp(2.3rem, 8vw, 3.3rem);
     }
 .services__content1 b, .services__content2 b{
     color: var(--yellow);
