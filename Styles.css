@@ -202,8 +202,8 @@ html,body
     padding: 1rem;
 }
 .Hero__Container img:hover{
-    width: 35vw;
-    height: 35vw;
+    width: 40vw;
+    height: 40vw;
     padding: 1rem;
 }
 .Render{
@@ -312,16 +312,12 @@ html,body
     margin-top: 1rem;
     color: var(--white);
 }
-.services__content1 h1:hover{
-    .services__content1 b{
+    .services__content1 b:hover{
         font-size: clamp(2.5rem, 8vw, 3.5rem);
     }
-}
-.services__content2 h2:hover{
-    .services__content2 b{
+    .services__content2 b:hover{
         font-size: clamp(2.5rem, 8vw, 3.5rem);
     }
-}
 .services__content1 b, .services__content2 b{
     color: var(--yellow);
     font-size: clamp(2rem, 8vw, 3rem);
