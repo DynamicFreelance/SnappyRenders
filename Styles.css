@@ -515,3 +515,22 @@ input [type=text], select{
     margin-bottom: 1rem;
     color: var(--black);
 }
+.custom-shape-divider-top-1711032884 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711032884 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 62px;
+}
+
+.custom-shape-divider-top-1711032884 .shape-fill {
+    fill: #FFFFFF;
+}
